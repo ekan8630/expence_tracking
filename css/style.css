@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* SIGN UP & LOGIN FORM STARTS HERE */
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.container {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px 15px;
+}
+.reg-btn{
+    margin-left: 300px;
+}
+
+
+/* Navbar CSS Starts here */
+nav{
+    background-color: #292828 ;
+    color:blue;
+    padding: 20px 0;
+}
+nav a:hover{
+    text-decoration: none;
+}
+/* Sidebar CSS Starts here */
+.sidebar{
+    background-color: #fff;
+    height: 100vh;
+}
+.sidebar .container-fluid{
+    padding: 10px;
+}
+
+.profile-box{
+    width: 100%;
+}
+.col-left{
+    width: 20%;
+    float: left;
+    /* padding: 10px 0; */
+}
+.col-right{
+    width: 80%;
+    float: left;    
+}
+.col-right small i{
+    color: lime;
+    padding-right: 5px;
+}
+.col-right small{
+    font-size: 11px;
+    color: grey;
+}
+.navbar{
+    clear: both;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar ul li{
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.active, .navbar ul li:hover {
+    background-color: #0069D9;
+    color: white;
+}
+.navbar ul li i{
+    padding-right: 10px;
+}
+
+
+/* Content CSS Starts here */
+.main{
+    background-color: whitesmoke;
+}
+/* .main .row .col input[type="text"]{
+    border-radius: 0;
+} */
+
+.main .row{
+    width: 100%;
+}
+.main .row .col{
+    width: 30%;
+    float: left;
+    margin: 50px 0 0 3%;
+    background-color: white;
+    text-align: center;
+    padding: 60px 40px;
+    border: 1px solid black; 
+}
+
+/* Footer Starts here */
+.footer{
+    background-color: #292828;
+    color: white;
+}
